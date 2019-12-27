@@ -1,0 +1,11 @@
+name: ChunkBuster
+version: ${project.version}
+main: chunkbuster.buster.Buster
+api-version: 1.13
+authors: [LEGITZX]
+
+commands:
+  chunkbuster:
+    description: Core ChunkBuster Command. Use [/chunkbuster get] to obtain a chunkbuster.
+    usage: /chunkbuster
+    permission: chunkbuster.get
